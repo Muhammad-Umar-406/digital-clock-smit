@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="rounded-div" id="clock">
+        <div class="cl-mnag">
+            <div class="hours">
+                <p id="di_hr">00</p> 
+                <p class="clock-label">hr</p>
+            </div>
+            <div class="minutes">
+            <p id="di_min">00</p> 
+            <p class="clock-label">min</p>
+            </div>
+            <div class="secondes">
+            <p id="di_sec">00</p>
+            <p class="clock-label">sec</p>
+            </div>
+            <div class="ampm">
+                <p id="ampm">AM</p>
+            </div>
+
+        </div>
+        <div>
+                <button class="button" onclick="changingFormat()" id="button">Switch to 12:hrs</button>
+            </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
